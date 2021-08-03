@@ -1,5 +1,5 @@
 {
-  "name": "@semantic-release/gitlab-config",
+  "name": "@ge/gitlab-config",
   "description": "semantic-release shareable config to publish npm packages with GitLab",
   "version": "0.0.0-development",
   "author": "Pierre Vanduynslager (https://github.com/pvdlg)",
@@ -11,13 +11,17 @@
     "Gregor Martynus (https://twitter.com/gr2m)"
   ],
   "dependencies": {
-    "@semantic-release/commit-analyzer": "^8.0.0",
-    "@semantic-release/gitlab": "^6.0.0",
-    "@semantic-release/npm": "^7.0.0",
-    "@semantic-release/release-notes-generator": "^9.0.0"
+    "@semantic-release/changelog": "^3.0.2",
+    "@semantic-release/commit-analyzer": "^6.1.0",
+    "@semantic-release/exec": "^5.0.0",
+    "@semantic-release/git": "^7.0.8",
+    "@semantic-release/gitlab": "3.1.2",
+    "@semantic-release/npm": "5.1.4",
+    "@semantic-release/release-notes-generator": "^7.1.4",
+    "semantic-release": "15.13.12",
+    "semantic-release-wxwork": "^1.0.1"
   },
   "devDependencies": {
-    "semantic-release": "17.3.9",
     "xo": "0.38.1"
   },
   "engines": {
