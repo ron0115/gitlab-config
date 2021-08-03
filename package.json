@@ -1,5 +1,5 @@
 {
-  "name": "@ge/gitlab-config",
+  "name": "@ge/release-config-gitlab",
   "description": "semantic-release shareable config to publish npm packages with GitLab",
   "version": "0.0.0-development",
   "author": "Pierre Vanduynslager (https://github.com/pvdlg)",
