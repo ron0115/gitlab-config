@@ -1,7 +1,7 @@
 {
-  "name": "@ge/release-config-gitlab",
+  "name": "@ron0115/release-config-gitlab",
   "description": "semantic-release shareable config to publish npm packages with GitLab",
-  "version": "0.0.0-development",
+  "version": "0.0.1",
   "author": "Pierre Vanduynslager (https://github.com/pvdlg)",
   "bugs": {
     "url": "https://github.com/semantic-release/gitlab-config/issues"
@@ -53,7 +53,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/semantic-release/gitlab-config.git"
+    "url": "git+https://github.com/semantic-release/gitlab-config.git"
   },
   "scripts": {
     "semantic-release": "semantic-release",
